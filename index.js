@@ -48,7 +48,7 @@ const ScalableImage = props => {
                 }]}
             />
         );
-    }, [scalableHeight, scalableWidth, props.source]);
+    }, [scalableHeight, scalableWidth, props]);
 
     const onProps = localProps => {
         const { source } = localProps;
